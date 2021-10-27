@@ -1,4 +1,71 @@
-/* ./src/index.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-class {
+  @apply my-1 text-gray-500 font-medium md:mx-3 md:mt-2 hover:text-pink-500 uppercase text-center md:text-left;
+}
+
+.social-icon {
+  @apply text-2xl text-gray-600 transition-all;
+}
+
+.bg-gradient {
+  @apply bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 transition-all;
+}
+.bg-text-landing {
+  @apply lg:block hidden opacity-60 absolute z-0 uppercase font-bold;
+}
+.bg-text {
+  @apply lg:block hidden opacity-60 absolute -z-0 uppercase font-bold;
+}
+.btn-primary {
+  @apply uppercase font-medium bg-transparent py-2 px-7 border-2 rounded-md transition-all;
+}
+
+.tab-title {
+  @apply bg-gray-50 font-semibold text-sm rounded-md py-2 px-3 mb-3 inline-block;
+}
+.single-section {
+  @apply block mb-2 py-2 border-gray-100;
+}
+
+.gridLayout {
+  @apply grid grid-cols-1 lg:grid-cols-3 lg:gap-8;
+}
+.technology {
+  @apply bg-gray-300 text-purple-500 px-3 py-1 mb-1 sm:mb-0 text-xs lg:text-sm rounded-md mr-2;
+}
+.portfolioHover {
+  @apply rounded-lg transition-all duration-500 transform;
+}
+.portfolioSection {
+  @apply group block md:grid md:grid-cols-3 gap-4 mt-20 transition-all duration-500;
+}
+
+.form-border {
+  @apply w-full bg-transparent border-2 border-gray-400 dark:border-white rounded-md focus:outline-none focus:ring-2 focus:ring-pink-600 focus:border-transparent py-2 px-3;
+}
+
+.active {
+  color: rgba(236, 72, 153, var(--tw-text-opacity));
+}
+
+#toggle:checked + label div.toggle-dot {
+  @apply translate-x-3;
+}
+
+@media (min-width: 768px) {
+  .CurveBg {
+    display: block;
+    box-sizing: border-box;
+    clip-path: ellipse(297% 100% at -90.96% 0%);
+  }
+  .CurveBgFooter {
+    display: block;
+    box-sizing: border-box;
+    clip-path: ellipse(147% 100% at -14.02% 100%);
+  }
+}
