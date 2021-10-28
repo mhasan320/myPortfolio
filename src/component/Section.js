@@ -1,6 +1,6 @@
 export default function Section({ SecTitle1, SecTitle2 }) {
   return (
-    <div class="flex relative bg-gray-100 dark:bg-gray-700">
+    <div class="flex relative bg-gray-100 dark:bg-gray-700" id="herro-section">
       <div class="container px-5  mx-auto md:pt-20 md:pb-20">
         <h3 class="tex-xl md:text-5xl text-center dark:text-white  text-gray-900 font-bold pl-0.5">
           {SecTitle1}

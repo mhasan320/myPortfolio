@@ -1,15 +1,20 @@
 import React from "react";
-// import PortfolioPage from "../Pages/PortfolioPage";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "../Pages/Home";
+import PortfolioPage from "../Pages/PortfolioPage";
 import "./FontawsomeIcons";
 import Layout from "./Layout";
 
 function App() {
   return (
-    <Layout>
-      <Home />
-      {/* <PortfolioPage /> */}
-    </Layout>
+    <Router>
+      <Layout>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/PortfolioPage" component={PortfolioPage} />
+        </Switch>
+      </Layout>
+    </Router>
   );
 }
 

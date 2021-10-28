@@ -1,43 +1,65 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Transition } from "@headlessui/react";
 import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/img/logo.jpg";
+import DarkModeToggle from "./DarkModeToggle";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  //assigning location variable
+  const location = useLocation();
+
+  //destructuring pathname from location
+  const { pathname } = location;
+
+  //Javascript split method to get the name of the path in array
+  const splitLocation = pathname.split("/");
+
   return (
-    <nav className="bg-white dark:bg-gray-900 shadow relative">
+    <nav className="bg-white dark:bg-gray-900 shadow relative transition duration-75">
       <div className="container m-auto p-4 md:flex md:justify-between md:items-center">
         <div className="flex justify-between items-center w-full">
           <div className="flex items-center">
-            <a href="#">
+            <Link to="/">
               <img
                 src={logo}
                 className="w-8 h-8 rounded-full shadow"
                 alt="Logo"
               />
-            </a>
+            </Link>
           </div>
 
           {/*-- desktop menubar --*/}
           <div className="hidden md:flex justify-end mt-4 md:mt-0 2xl:mr-20 md:mr-32">
             <div className="flex flex-col md:flex-row md:ml-6">
-              <a
-                className="nav-class active:text-pink-500 active"
-                href="index.html"
-                aria-current="page"
+              <li
+                className={`nav-class list-none ${
+                  splitLocation[1] === "" ? "active" : ""
+                }`}
               >
-                Home
-              </a>
-              <a className="nav-class dark:text-gray-50" href="portfolio.html">
-                Portfolio
-              </a>
-              <a
+                <Link to="/"> Home </Link>
+              </li>
+              <li
+                className={`nav-class list-none ${
+                  splitLocation[1] === "PortfolioPage" ? "active" : ""
+                }`}
+              >
+                <Link className="" to="/PortfolioPage">
+                  Portfolio
+                </Link>
+              </li>
+              <Link
                 className="btn-primary text-center border-pink-500 text-pink-500 md:ml-6 hover:bg-pink-500 hover:text-white"
-                href="#"
+                to={{
+                  pathname:
+                    "https://me.mhasan.acumenits.com/wp-content/uploads/2021/10/Mahmudul-Hasan.pdf",
+                }}
+                target="_blank"
               >
                 Download CV
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -66,21 +88,7 @@ export default function Header() {
           </div>
 
           {/*-- dark theme toggle --*/}
-          <div className="flex absolute right-10 md:right-5 top:20">
-            <span className="text-xs text-gray-800 dark:text-gray-700 hidden md:block">
-              Light
-            </span>
-            <input id="toggle" type="checkbox" className="hidden" />
-            <label
-              htmlFor="toggle"
-              className="w-9 h-5 mx-2 flex items-center bg-gray-300 rounded-full p-1 cursor-pointer duration-300 ease-in-out dark:bg-gray-600"
-            >
-              <div className="toggle-dot bg-white dark:text-gray-100 w-4 h-4 rounded-full shadow-md transform duration-300 ease-in-out"></div>
-            </label>
-            <span className="text-xs text-gray-400 dark:text-white hidden md:block">
-              Dark
-            </span>
-          </div>
+          <DarkModeToggle />
         </div>
 
         {/*--  menu item, if menu set to hidden --*/}
@@ -96,25 +104,24 @@ export default function Header() {
           {(ref) => (
             <div className="md:flex items-center mt-4 md:mt-0">
               <div ref={ref} className="flex flex-col md:flex-row md:ml-6">
-                <a
-                  className="nav-class active:text-pink-500 active"
-                  href="index.html"
-                  aria-current="page"
-                >
+                <Link className="nav-class" to="/" aria-current="page">
                   Home
-                </a>
-                <a
-                  className="nav-class dark:text-gray-50"
-                  href="portfolio.html"
+                </Link>
+                <Link
+                  className="nav-class dark:text-gray-50 transition duration-75"
+                  to="/PortfolioPage"
                 >
                   Portfolio
-                </a>
-                <a
+                </Link>
+                <Link
                   className="btn-primary text-center border-pink-500 text-pink-500 md:ml-6 hover:bg-pink-500 hover:text-white"
-                  href="#"
+                  to={{
+                    pathname:
+                      "https://me.mhasan.acumenits.com/wp-content/uploads/2021/10/Mahmudul-Hasan.pdf",
+                  }}
                 >
                   Download CV
-                </a>
+                </Link>
               </div>
             </div>
           )}

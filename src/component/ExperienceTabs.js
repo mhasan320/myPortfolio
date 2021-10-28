@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/jsx-no-target-blank */
 import { Tab } from "@headlessui/react";
+import { Link } from "react-router-dom";
+import Progressbar from "./Progressbar";
 
 export default function ExperienceTabs() {
   return (
@@ -79,126 +81,12 @@ export default function ExperienceTabs() {
                 <span className="tab-title text-gray-700 dark:bg-gray-700 dark:text-white">
                   Skills
                 </span>
-                <div className="relative mb-7">
-                  <div className="flex mb-2 items-center justify-between">
-                    <div>
-                      <span className="text-sm md:text-lg font-semibold inline-block text-gray-600 dark:text-white">
-                        HTML
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-sm font-semibold inline-block text-purple-500 dark:text-white">
-                        95%
-                      </span>
-                    </div>
-                  </div>
-                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                    <div
-                      style={{ width: "95%" }}
-                      className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative mb-7">
-                  <div className="flex mb-2 items-center justify-between">
-                    <div>
-                      <span className="text-sm md:text-lg font-semibold inline-block text-gray-600 dark:text-white">
-                        CSS/SASS
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-sm font-semibold inline-block text-purple-500">
-                        90%
-                      </span>
-                    </div>
-                  </div>
-                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                    <div
-                      style={{ width: "90%" }}
-                      className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative mb-7">
-                  <div className="flex mb-2 items-center justify-between">
-                    <div>
-                      <span className="text-sm md:text-lg font-semibold inline-block text-gray-600 dark:text-white">
-                        JavaScript
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-sm font-semibold inline-block text-purple-500">
-                        85%
-                      </span>
-                    </div>
-                  </div>
-                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                    <div
-                      style={{ width: "85%" }}
-                      className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative mb-7">
-                  <div className="flex mb-2 items-center justify-between">
-                    <div>
-                      <span className="text-sm md:text-lg font-semibold inline-block text-gray-600 dark:text-white">
-                        Jquery
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-sm font-semibold inline-block text-purple-500">
-                        90%
-                      </span>
-                    </div>
-                  </div>
-                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                    <div
-                      style={{ width: "85%" }}
-                      className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative mb-7">
-                  <div className="flex mb-2 items-center justify-between">
-                    <div>
-                      <span className="text-sm md:text-lg font-semibold inline-block text-gray-600 dark:text-white">
-                        WordPress
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-sm font-semibold inline-block text-purple-500">
-                        80%
-                      </span>
-                    </div>
-                  </div>
-                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                    <div
-                      style={{ width: "80%" }}
-                      className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                    ></div>
-                  </div>
-                </div>
-                <div className="relative mb-7">
-                  <div className="flex mb-2 items-center justify-between">
-                    <div>
-                      <span className="text-sm md:text-lg font-semibold inline-block text-gray-600 dark:text-white">
-                        Photoshop/Illustrator
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-sm font-semibold inline-block text-purple-500">
-                        70%
-                      </span>
-                    </div>
-                  </div>
-                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200">
-                    <div
-                      style={{ width: "80%" }}
-                      className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
-                    ></div>
-                  </div>
-                </div>
+                <Progressbar text="HTML" progressDone="95" />
+                <Progressbar text="CSS/SASS" progressDone="90" />
+                <Progressbar text="JavaScript" progressDone="85" />
+                <Progressbar text="jQuery" progressDone="90" />
+                <Progressbar text="WordPress" progressDone="80" />
+                <Progressbar text="Photoshop/Illustrator" progressDone="70" />
               </div>
             </div>
           </Tab.Panel>
@@ -214,9 +102,12 @@ export default function ExperienceTabs() {
                 <h3 className=" mb-3 text-gray-500">2017 - Present</h3>
                 <hr className="dark:border-gray-600" />
                 <span className="tab-title text-purple-500 hover:bg-purple-500 hover:text-white transition-all md:mb-5 md:inline-block mt-5 dark:bg-gray-600 dark:text-white dark:hover:bg-purple-500 dark:hover:text-white">
-                  <a target="_blank" href="https://eunoiaits.com/">
+                  <Link
+                    target="_blank"
+                    to={{ pathname: "https://eunoiaits.com/" }}
+                  >
                     Eunoia I.T Solutions
-                  </a>
+                  </Link>
                 </span>
                 <p className="mb-4 text-sm">My Responsibilities: </p>
                 <ul className="list-disc pl-4 text-sm leading-7">
@@ -247,7 +138,15 @@ export default function ExperienceTabs() {
                 <h3 className=" mb-3 text-gray-500">2016 - 2020</h3>
                 <hr />
                 <span className="tab-title text-purple-500 hover:bg-purple-500 hover:text-white transition-all md:mb-5 md:inline-block mt-5 dark:bg-gray-600 dark:text-white dark:hover:bg-purple-500">
-                  <a href="#">Upwork</a>
+                  <Link
+                    to={{
+                      pathname:
+                        "https://www.upwork.com/freelancers/~01e280a2acdda918e9",
+                    }}
+                    target="_blank"
+                  >
+                    Upwork
+                  </Link>
                 </span>
                 <p className="mb-4 text-sm">
                   I was doing Freelancing as Front-end Developer for the last 6
