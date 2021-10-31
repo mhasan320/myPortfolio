@@ -22,7 +22,7 @@ export default function WorkList() {
         data-aos-delay="50"
         data-aos-easing="ease-in-out"
       >
-        <div className="col-span-2 lg:mt-20">
+        <div className="col-span-2 lg:mt-0">
           <h3 className="text-2xl mb-2 font-semibold">
             Charuta Private Limited
           </h3>
@@ -74,7 +74,7 @@ export default function WorkList() {
             alt="Charuta"
           />
         </div>
-        <div className="col-span-2 lg:mt-20 md:ml-36">
+        <div className="col-span-2 lg:mt-0 md:ml-20">
           <h3 className="text-2xl mb-2 font-semibold">Eunoia I.T Solutions</h3>
           <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
             Informative Website
@@ -115,7 +115,7 @@ export default function WorkList() {
         data-aos-delay="100"
         data-aos-easing="ease-in-out"
       >
-        <div className="col-span-2 lg:mt-20">
+        <div className="col-span-2 lg:mt-0">
           <h3 className="text-2xl mb-2 font-semibold">Eejara</h3>
           <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
             Web Application
@@ -168,7 +168,7 @@ export default function WorkList() {
             alt="Charuta"
           />
         </div>
-        <div className="col-span-2 lg:mt-20 md:ml-36">
+        <div className="col-span-2 lg:mt-0 md:ml-20">
           <h3 className="text-2xl mb-2 font-semibold">Business Summit</h3>
           <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
             Web Application
@@ -212,7 +212,7 @@ export default function WorkList() {
         data-aos-delay="100"
         data-aos-easing="ease-in-out"
       >
-        <div className="col-span-2 lg:mt-20">
+        <div className="col-span-2 lg:mt-0">
           <h3 className="text-2xl mb-2 font-semibold">Parking Kori</h3>
           <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
             Web Application
@@ -265,7 +265,7 @@ export default function WorkList() {
             alt="Charuta"
           />
         </div>
-        <div className="col-span-2 lg:mt-20 md:ml-36">
+        <div className="col-span-2 lg:mt-0 md:ml-20">
           <h3 className="text-2xl mb-2 font-semibold">IPSSL Group</h3>
           <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
             Informative Website
@@ -308,7 +308,7 @@ export default function WorkList() {
         data-aos-delay="100"
         data-aos-easing="ease-in-out"
       >
-        <div className="col-span-2 lg:mt-20">
+        <div className="col-span-2 lg:mt-0">
           <h3 className="text-2xl mb-2 font-semibold">
             Asian Concierge Service Co. Ltd
           </h3>
@@ -360,7 +360,7 @@ export default function WorkList() {
             alt="Charuta"
           />
         </div>
-        <div className="col-span-2 lg:mt-20 md:ml-36">
+        <div className="col-span-2 lg:mt-0 md:ml-20">
           <h3 className="text-2xl mb-2 font-semibold">
             The Sanctuary Fig Tree Pocket
           </h3>
@@ -393,7 +393,7 @@ export default function WorkList() {
         data-aos-delay="100"
         data-aos-easing="ease-in-out"
       >
-        <div className="col-span-2 lg:mt-20">
+        <div className="col-span-2 lg:mt-0">
           <h3 className="text-2xl mb-2 font-semibold">unigamsa</h3>
           <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
             Informative Website
