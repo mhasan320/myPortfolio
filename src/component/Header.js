@@ -32,7 +32,7 @@ export default function Header() {
           </div>
 
           {/*-- desktop menubar --*/}
-          <div className="hidden md:flex justify-end mt-4 md:mt-0 2xl:mr-20 md:mr-32">
+          <div className="hidden md:flex justify-end mt-4 md:mt-0 md:mr-32 2xl:mr-0">
             <div className="flex flex-col md:flex-row md:ml-6">
               <li
                 className={`nav-class list-none ${
