@@ -26,7 +26,7 @@ export default function ContactForm() {
     setContactMessage(true);
   }
   return (
-    <form className="mt-12 md:px-5" onSubmit={submitFunction}>
+    <form className="mt-0 md:px-5" onSubmit={submitFunction}>
       <InputBox
         LabelText="Full Name"
         name="name"

@@ -37,7 +37,7 @@ export default function ContactArea() {
         </animated.div>
         <div className="block md:grid grid-cols-2 gap-4 mt-2 dark:text-white">
           <div
-            className="md:col-span-1"
+            className="md:col-span-1 md:mr-8"
             data-aos="fade-right"
             data-aos-delay="50"
             data-aos-easing="ease-in-out"
