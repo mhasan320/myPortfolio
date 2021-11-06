@@ -155,7 +155,7 @@ export default function WorkList() {
       </Link>
       <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "https://eunoiaits.com/" }}
+        to={{ pathname: "https://www.businesssummit.net/" }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="100"
