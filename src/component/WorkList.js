@@ -9,11 +9,55 @@ import parkingKori from "../assets/img/parkingKori.jpg";
 import santuray from "../assets/img/santuray.jpg";
 import unigamsa from "../assets/img/unigamsa.jpg";
 import useAosAnimation from "../hooks/useAosAnimation";
+import kibaba from "../assets/img/kibaba.jpg";
 import GoWebsite from "./GoWebsite";
 export default function WorkList() {
   useAosAnimation();
   return (
     <>
+     <Link
+        className="portfolioSection dark:text-white"
+        to={{ pathname: "https://acumenits.com/kibaba/" }}
+        target="_blank"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-easing="ease-in-out"
+      >
+        <div className="col-span-1">
+        <img
+            src={kibaba}
+            className="portfolioHover group-hover:scale-105 group-hover:shadow-xl"
+            alt="kibaba"
+          />
+        </div>
+        <div className="col-span-2 lg:mt-0 md:ml-20">
+          
+          <h3 className="text-2xl mb-2 font-semibold">
+            Kibaba
+          </h3>
+          <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
+            Informative Website
+          </h5>
+          <p className="text-justify md:w-5/6 mb-4">
+            Cloud-based web hosting that empowers creatives and supercharges the future of ideas.
+          </p>
+          <div className="flex flex-wrap pb-4">
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              HTML
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              CSS
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              Bootstrap 5
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              Jquery
+            </span>
+          </div>
+          <GoWebsite />
+        </div>
+      </Link>
       <Link
         className="portfolioSection dark:text-white"
         to={{ pathname: "https://www.charuta.com" }}
@@ -394,7 +438,7 @@ export default function WorkList() {
         data-aos-easing="ease-in-out"
       >
         <div className="col-span-2 lg:mt-0">
-          <h3 className="text-2xl mb-2 font-semibold">unigamsa</h3>
+          <h3 className="text-2xl mb-2 font-semibold">Unigamsa</h3>
           <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
             Informative Website
           </h5>

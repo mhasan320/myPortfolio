@@ -57,6 +57,11 @@
   @apply translate-x-3;
 }
 
+.h-77vh{
+  height: 77vh;
+}
+
+
 @media (min-width: 768px) {
   .CurveBg {
     display: block;

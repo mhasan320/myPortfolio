@@ -43,10 +43,7 @@ export default function ContactArea() {
             data-aos-easing="ease-in-out"
           >
             <p className="text-justify mb-14 text-md">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              quisquam praesentium perferendis maxime, laboriosam doloribus
-              corrupti? Distinctio molestiae nostrum officia odio ipsam aliquid
-              tenetur nobis, minus incidunt repellat dolore inventore!
+              Need to develop React or WordPress website ? I am here to help you.
             </p>
             <p className="text-black dark:text-white text-lg mb-2">
               <span className="font-bold">Email :</span>{" "}

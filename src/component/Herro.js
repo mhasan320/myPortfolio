@@ -17,11 +17,11 @@ export default function Herro() {
 
   return (
     <div
-      className="flex relative"
+      className="flex relative h-77vh items-center justify-center"
       id="herro-section"
       onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
     >
-      <div className="container px-5 mx-auto my-32 md:mt-40 md:mb-72 z-10">
+      <div className="container px-3 z-10">
         {/*-- Herro section title --*/}
         <HerroTitle />
         <div className="mt-3 md:mt-5">
@@ -36,7 +36,7 @@ export default function Herro() {
       </div>
       <animated.h3
         style={{ transform: props.xy.interpolate(trans1) }}
-        className="bg-text-landing left-0 top-36 text-gray-100 dark:text-gray-700 dark:text-opacity-40 text-9xl"
+        className="bg-text-landing left-0 top-40 text-gray-100 dark:text-gray-700 dark:text-opacity-40 text-9xl"
       >
         Mahmudul
       </animated.h3>

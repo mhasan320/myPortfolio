@@ -31,12 +31,7 @@ export default function About() {
           >
             <div className="dark:text-white m-auto sm:ml-0 text-justify mt-3 text-md transition duration-75">
               <p>
-                I’m an Innovative and professional Front-end Developer with 5
-                years of experience building and maintaining websites in the IT
-                industry. I Developed 40+ beautiful & creative Websites. Highly
-                skilled in HTML, CSS, JavaScript, jQuery, WordPress. I have also
-                acceptable knowledge of Photoshop, illustrator, SASS/LESS,
-                GitHub/Gitlab, and Basic SEO.
+              Front-end Developer with 5 years+ professional experience by providing service to ‘Eunoia IT Solutions ‘. Enjoy Coding and problem solver.
               </p>
             </div>
             <hr className="mt-5 dark:border-gray-800 transition duration-75" />
