@@ -1,45 +1,86 @@
-import { Link } from "react-router-dom";
-import assain from "../assets/img/assian.jpg";
-import business from "../assets/img/businessSummit.jpg";
-import charuta from "../assets/img/charuta.jpg";
-import eejara from "../assets/img/eejara.jpg";
-import eunoia from "../assets/img/eunoia.jpg";
-import ipsslGroup from "../assets/img/ipssl.jpg";
-import parkingKori from "../assets/img/parkingKori.jpg";
-import santuray from "../assets/img/santuray.jpg";
-import unigamsa from "../assets/img/unigamsa.jpg";
-import useAosAnimation from "../hooks/useAosAnimation";
-import kibaba from "../assets/img/kibaba.jpg";
-import GoWebsite from "./GoWebsite";
+import { Link } from 'react-router-dom';
+import assain from '../assets/img/assian.jpg';
+import business from '../assets/img/businessSummit.jpg';
+import charuta from '../assets/img/charuta.jpg';
+import eejara from '../assets/img/eejara.jpg';
+import eunoia from '../assets/img/eunoia.jpg';
+import ipsslGroup from '../assets/img/ipssl.jpg';
+import kibaba from '../assets/img/kibaba.jpg';
+import noir from '../assets/img/noir.jpg';
+import parkingKori from '../assets/img/parkingKori.jpg';
+import santuray from '../assets/img/santuray.jpg';
+import unigamsa from '../assets/img/unigamsa.jpg';
+import useAosAnimation from '../hooks/useAosAnimation';
+import GoWebsite from './GoWebsite';
 export default function WorkList() {
   useAosAnimation();
   return (
     <>
-     <Link
+      <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "https://acumenits.com/kibaba/" }}
+        to={{ pathname: 'https://www.noirbd.com' }}
+        target="_blank"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-easing="ease-in-out"
+      >
+        <div className="col-span-2 lg:mt-0">
+          <h3 className="text-2xl mb-2 font-semibold">noirbd</h3>
+          <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
+            Ecommerce Website
+          </h5>
+          <p className="text-justify md:w-5/6 mb-4">
+            ‘Noir’ is a ecommerce website of Evience company. Which is created
+            by Bit Byte Technology. I am doing front-end coding into this
+            project.
+          </p>
+          <div className="flex flex-wrap pb-4">
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              Javascript
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              React Js
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              Next Js
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              Php
+            </span>
+          </div>
+          <GoWebsite />
+        </div>
+        <div className="col-span-1">
+          <img
+            src={noir}
+            className="portfolioHover group-hover:scale-105 group-hover:shadow-xl"
+            alt="noir"
+          />
+        </div>
+      </Link>
+      <Link
+        className="portfolioSection dark:text-white"
+        to={{ pathname: 'https://acumenits.com/kibaba/' }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="50"
         data-aos-easing="ease-in-out"
       >
         <div className="col-span-1">
-        <img
+          <img
             src={kibaba}
             className="portfolioHover group-hover:scale-105 group-hover:shadow-xl"
             alt="kibaba"
           />
         </div>
         <div className="col-span-2 lg:mt-0 md:ml-20">
-          
-          <h3 className="text-2xl mb-2 font-semibold">
-            Kibaba
-          </h3>
+          <h3 className="text-2xl mb-2 font-semibold">Kibaba</h3>
           <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
             Informative Website
           </h5>
           <p className="text-justify md:w-5/6 mb-4">
-            Cloud-based web hosting that empowers creatives and supercharges the future of ideas.
+            Cloud-based web hosting that empowers creatives and supercharges the
+            future of ideas.
           </p>
           <div className="flex flex-wrap pb-4">
             <span className="technology dark:text-white  dark:bg-gray-700">
@@ -60,7 +101,7 @@ export default function WorkList() {
       </Link>
       <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "https://www.charuta.com" }}
+        to={{ pathname: 'https://www.charuta.com' }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="50"
@@ -105,7 +146,7 @@ export default function WorkList() {
       </Link>
       <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "https://eunoiaits.com/" }}
+        to={{ pathname: 'https://eunoiaits.com/' }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="100"
@@ -153,7 +194,7 @@ export default function WorkList() {
       </Link>
       <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "https://www.eejara.com/" }}
+        to={{ pathname: 'https://www.eejara.com/' }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="100"
@@ -199,7 +240,7 @@ export default function WorkList() {
       </Link>
       <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "https://www.businesssummit.net/" }}
+        to={{ pathname: 'https://www.businesssummit.net/' }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="100"
@@ -250,7 +291,7 @@ export default function WorkList() {
 
       <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "https://parkingkori.com/" }}
+        to={{ pathname: 'https://parkingkori.com/' }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="100"
@@ -296,7 +337,7 @@ export default function WorkList() {
       </Link>
       <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "https://www.ipsslgroup.com/" }}
+        to={{ pathname: 'https://www.ipsslgroup.com/' }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="100"
@@ -346,7 +387,7 @@ export default function WorkList() {
       </Link>
       <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "http://acumenits.com/acsui/" }}
+        to={{ pathname: 'http://acumenits.com/acsui/' }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="100"
@@ -391,7 +432,7 @@ export default function WorkList() {
       </Link>
       <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "http://thesanctuaryfigtreepocket.com.au/" }}
+        to={{ pathname: 'http://thesanctuaryfigtreepocket.com.au/' }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="100"
@@ -431,7 +472,7 @@ export default function WorkList() {
       </Link>
       <Link
         className="portfolioSection dark:text-white"
-        to={{ pathname: "https://unigamsa.com/" }}
+        to={{ pathname: 'https://unigamsa.com/' }}
         target="_blank"
         data-aos="fade-up"
         data-aos-delay="100"

@@ -1,6 +1,7 @@
-import aboutImg from "../assets/img/about.png";
-import useAosAnimation from "../hooks/useAosAnimation";
-import SectionTitle from "./SectionTitle";
+import { Link } from 'react-router-dom';
+import aboutImg from '../assets/img/about.png';
+import useAosAnimation from '../hooks/useAosAnimation';
+import SectionTitle from './SectionTitle';
 
 export default function About() {
   useAosAnimation();
@@ -31,7 +32,20 @@ export default function About() {
           >
             <div className="dark:text-white m-auto sm:ml-0 text-justify mt-3 text-md transition duration-75">
               <p>
-              Front-end Developer with 5 years+ professional experience by providing service to ‘Eunoia IT Solutions ‘. Enjoy Coding and problem solver.
+                Front-end Developer with 5 years+ professional experience by
+                providing service to ‘Eunoia IT Solutions ‘. ❤️ Javascript,
+                Typescript & React JS and learning new technology in my leisure
+                time. At Present I am working into{' '}
+                <Link
+                  to={{
+                    pathname: 'https://bitbytetechnology.com/',
+                  }}
+                  target="_blank"
+                  className="bg-pink-500 hover:bg-white hover:text-pink-500 transiton-all duration-150 text-white p-0.5 cursor-pointer"
+                >
+                  Bit Byte Technology
+                </Link>{' '}
+                as a Software engineer (Front-end Developer).
               </p>
             </div>
             <hr className="mt-5 dark:border-gray-800 transition duration-75" />
@@ -40,19 +54,19 @@ export default function About() {
                 <p className=" leading-8">
                   <span className="text-purple-500 font-semibold mr-4">
                     Age :
-                  </span>{" "}
-                  28
+                  </span>{' '}
+                  29
                 </p>
                 <p className=" leading-8">
                   <span className="text-purple-500 font-semibold mr-4">
                     Nationality :
-                  </span>{" "}
+                  </span>{' '}
                   Bangladeshi
                 </p>
                 <p className=" leading-8">
                   <span className="text-purple-500 font-semibold mr-4">
                     Language :
-                  </span>{" "}
+                  </span>{' '}
                   Bangla, English
                 </p>
               </div>
@@ -60,19 +74,19 @@ export default function About() {
                 <p className=" leading-8">
                   <span className="text-pink-500 font-semibold mr-4">
                     Address :
-                  </span>{" "}
+                  </span>{' '}
                   Dhaka, Bangladesh
                 </p>
                 <p className=" leading-8">
                   <span className="text-pink-500 font-semibold mr-4">
                     Email :
-                  </span>{" "}
+                  </span>{' '}
                   mhhasan320@gmail.com
                 </p>
                 <p className=" leading-8">
                   <span className="text-pink-500 font-semibold mr-4">
                     Phone :
-                  </span>{" "}
+                  </span>{' '}
                   +8801517828396
                 </p>
               </div>
