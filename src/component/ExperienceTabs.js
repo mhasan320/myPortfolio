@@ -40,7 +40,7 @@ export default function ExperienceTabs() {
               >
                 <h2 className="text-lg font-semibold">Front-end Developer</h2>
                 <h4 className="text-sm italic mb-2">Full Time | Onsite</h4>
-                <h3 className=" mb-3 text-gray-500">March 2012 - Present</h3>
+                <h3 className=" mb-3 text-gray-500">March 2022 - Present</h3>
                 <hr className="dark:border-gray-600" />
                 <span className="tab-title text-purple-500 hover:bg-purple-500 hover:text-white transition-all md:mb-5 md:inline-block mt-5 dark:bg-gray-600 dark:text-white dark:hover:bg-purple-500 dark:hover:text-white">
                   <Link
