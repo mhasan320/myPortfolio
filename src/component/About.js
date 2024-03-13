@@ -3,7 +3,7 @@ import aboutImg from '../assets/img/about.png';
 import useAosAnimation from '../hooks/useAosAnimation';
 import SectionTitle from './SectionTitle';
 
-export default function About() {
+export default function About() { 
   useAosAnimation();
   return (
     <div className="bg-gray-50 dark:bg-gray-700 relative z-50 transition duration-75">
@@ -32,51 +32,12 @@ export default function About() {
           >
             <div className="dark:text-white m-auto sm:ml-0 text-justify mt-3 text-md transition duration-75">
               <p>
-                Front-end Developer with 5 years+ professional experience by
-                providing service to ‘Eunoia IT Solutions ‘. ❤️ Javascript,
-                Typescript & React JS and learning new technology in my leisure
-                time. At Present I am working into{' '}
-                <Link
-                  to={{
-                    pathname: 'https://bitbytetechnology.com/',
-                  }}
-                  target="_blank"
-                  className="bg-pink-500 hover:bg-white hover:text-pink-500 transiton-all duration-150 text-white p-0.5 cursor-pointer"
-                >
-                  Bit Byte Technology
-                </Link>{' '}
-                as a Software engineer (Front-end Developer).
+              I am a seasoned front-end developer with 5 years of experience specializing in Javascript,  s, React and Next.js. With a strong focus on crafting intuitive user interfaces and delivering exceptional user experiences, I have a proven track record of building dynamic and responsive web applications. Skilled in collaborating with cross-functional teams and implementing cutting-edge technologies, I am dedicated to delivering high-quality, scalable solutions tailored to meet client needs.
               </p>
             </div>
             <hr className="mt-5 dark:border-gray-800 transition duration-75" />
             <div className="text-center dark:text-white sm:text-left block md:flex justify-between mt-5 md:text-lg transition duration-75">
               <div className="inline-block">
-                <p className=" leading-8">
-                  <span className="text-purple-500 font-semibold mr-4">
-                    Age :
-                  </span>{' '}
-                  29
-                </p>
-                <p className=" leading-8">
-                  <span className="text-purple-500 font-semibold mr-4">
-                    Nationality :
-                  </span>{' '}
-                  Bangladeshi
-                </p>
-                <p className=" leading-8">
-                  <span className="text-purple-500 font-semibold mr-4">
-                    Language :
-                  </span>{' '}
-                  Bangla, English
-                </p>
-              </div>
-              <div className="inline-block">
-                <p className=" leading-8">
-                  <span className="text-pink-500 font-semibold mr-4">
-                    Address :
-                  </span>{' '}
-                  Dhaka, Bangladesh
-                </p>
                 <p className=" leading-8">
                   <span className="text-pink-500 font-semibold mr-4">
                     Email :
@@ -88,6 +49,12 @@ export default function About() {
                     Phone :
                   </span>{' '}
                   +8801517828396
+                </p>
+                <p className=" leading-8">
+                  <span className="text-pink-500 font-semibold mr-4">
+                    Address :
+                  </span>{' '}
+                  Dhaka, Bangladesh
                 </p>
               </div>
             </div>
