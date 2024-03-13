@@ -25,7 +25,7 @@ export default function WorkList() {
         data-aos-easing="ease-in-out"
       >
         <div className="col-span-2 lg:mt-0">
-          <h3 className="text-2xl mb-2 font-semibold">noirbd</h3>
+          <h3 className="text-2xl mb-2 font-semibold">Noir BD</h3>
           <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
             Ecommerce Website
           </h5>

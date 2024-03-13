@@ -31,7 +31,7 @@ export default function About() {
           >
             <div className="dark:text-white m-auto sm:ml-0 text-justify mt-3 text-md transition duration-75">
               <p>
-              I am a seasoned front-end developer with 5 years of experience specializing in Javascript,  s, React and Next.js. With a strong focus on crafting intuitive user interfaces and delivering exceptional user experiences, I have a proven track record of building dynamic and responsive web applications. Skilled in collaborating with cross-functional teams and implementing cutting-edge technologies, I am dedicated to delivering high-quality, scalable solutions tailored to meet client needs.
+              I am a seasoned front-end developer with 5 years of experience specializing in Javascript, Typescript, React and Next.js. With a strong focus on crafting intuitive user interfaces and delivering exceptional user experiences, I have a proven track record of building dynamic and responsive web applications. Skilled in collaborating with cross-functional teams and implementing cutting-edge technologies, I am dedicated to delivering high-quality, scalable solutions tailored to meet client needs.
               </p>
             </div>
             <hr className="mt-5 dark:border-gray-800 transition duration-75" />

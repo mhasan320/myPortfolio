@@ -34,13 +34,47 @@ export default function ExperienceTabs() {
           <Tab.Panel>
             <div className="gridLayout">
               <div
+                className="col-span-1 bg-white dark:bg-gray-900 dark:text-white rounded-lg shadow-lg p-4 md:p-8 md:mb-0 "
+                data-aos="fade-right"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
+                <h2 className="text-lg font-semibold">Front-end Developer</h2>
+                <h4 className="text-sm italic mb-2">Full Time | Onsite</h4>
+                <h3 className=" mb-3 text-gray-500">October 2023 - Present</h3>
+                <hr />
+                <span className="tab-title text-purple-500 hover:bg-purple-500 hover:text-white transition-all md:mb-5 md:inline-block mt-5 dark:bg-gray-600 dark:text-white dark:hover:bg-purple-500">
+                  <Link
+                    to={{
+                      pathname:
+                        'https://citycomtravel.com/',
+                    }}
+                    target="_blank"
+                  >
+                    Citycom International Travel Agency
+                  </Link>
+                </span>
+                <p className="mb-4 text-sm">
+                  Creating MVP and OTA application for Citycom Travel Agency.
+                </p>
+                <ul className="list-disc pl-4 leading-7 text-sm">
+                  <li>Develop frontend components and pages using Next.js framework.</li>
+                  <li>Implement navigation, forms, search functionalities, and user interactions.</li>
+                  <li>Ensure consistent design across different devices and screen sizes.</li>
+                  <li>Integrate with backend APIs for retrieving travel-related data such as flights, hotels, and packages.</li>
+                  <li>Implement data fetching and management using Next.js data fetching methods (e.g., getStaticProps, getServerSideProps, API routes).</li>
+                  <li>Implement user authentication and authorization mechanisms for both B2B and B2C users.</li>
+                  <li>Enable secure login, registration, and profile management functionalities.</li>
+                </ul>
+              </div>
+              <div
                 className="col-span-1 bg-white dark:bg-gray-900 dark:text-white rounded-lg shadow-lg p-4 md:p-8 mb-4 lg:mb-0"
                 data-aos="fade-right"
                 data-aos-duration="1000"
               >
                 <h2 className="text-lg font-semibold">Front-end Developer</h2>
                 <h4 className="text-sm italic mb-2">Full Time | Onsite</h4>
-                <h3 className=" mb-3 text-gray-500">March 2022 - Present</h3>
+                <h3 className=" mb-3 text-gray-500">March 2022 - September 2023</h3>
                 <hr className="dark:border-gray-600" />
                 <span className="tab-title text-purple-500 hover:bg-purple-500 hover:text-white transition-all md:mb-5 md:inline-block mt-5 dark:bg-gray-600 dark:text-white dark:hover:bg-purple-500 dark:hover:text-white">
                   <Link
@@ -102,35 +136,6 @@ export default function ExperienceTabs() {
                     Designed and developed some informative websites with
                     various WordPress themes.
                   </li>
-                </ul>
-              </div>
-              <div
-                className="col-span-1 bg-white dark:bg-gray-900 dark:text-white rounded-lg shadow-lg p-4 md:p-8 md:mb-0 "
-                data-aos="fade-right"
-                data-aos-delay="200"
-                data-aos-duration="1000"
-              >
-                <h2 className="text-lg font-semibold">Front-end Developer</h2>
-                <h4 className="text-sm italic mb-2">Part Time | Remote</h4>
-                <h3 className=" mb-3 text-gray-500">2016 - 2020</h3>
-                <hr />
-                <span className="tab-title text-purple-500 hover:bg-purple-500 hover:text-white transition-all md:mb-5 md:inline-block mt-5 dark:bg-gray-600 dark:text-white dark:hover:bg-purple-500">
-                  <Link
-                    to={{
-                      pathname:
-                        'https://www.upwork.com/freelancers/~01e280a2acdda918e9',
-                    }}
-                    target="_blank"
-                  >
-                    Upwork
-                  </Link>
-                </span>
-                <p className="mb-4 text-sm">
-                  I was doing Freelancing as Front-end Developer for the last 6
-                  years.{' '}
-                </p>
-                <ul className="list-disc pl-4 leading-7 text-sm">
-                  <li>Successfully completed 17 Jobs with 5-StarRatings.</li>
                 </ul>
               </div>
             </div>
