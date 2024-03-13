@@ -54,7 +54,7 @@ export default function Header() {
                 className="btn-primary text-center border-pink-500 text-pink-500 md:ml-6 hover:bg-pink-500 hover:text-white"
                 to={{
                   pathname:
-                    "https://me.mhasan.acumenits.com/wp-content/uploads/2022/01/Resume_of_Mahmudul_Hasan.pdf",
+                    "https://drive.google.com/file/d/1z3Tl_YxxcaKwKtgU9svBlBg3JfRmtmvI/view?usp=sharing",
                 }}
                 target="_blank"
               >

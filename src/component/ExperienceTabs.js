@@ -60,11 +60,9 @@ export default function ExperienceTabs() {
                 <ul className="list-disc pl-4 leading-7 text-sm">
                   <li>Develop frontend components and pages using Next.js framework.</li>
                   <li>Implement navigation, forms, search functionalities, and user interactions.</li>
-                  <li>Ensure consistent design across different devices and screen sizes.</li>
                   <li>Integrate with backend APIs for retrieving travel-related data such as flights, hotels, and packages.</li>
-                  <li>Implement data fetching and management using Next.js data fetching methods (e.g., getStaticProps, getServerSideProps, API routes).</li>
+                  <li>Implement data fetching and management using Next.js data fetching methods</li>
                   <li>Implement user authentication and authorization mechanisms for both B2B and B2C users.</li>
-                  <li>Enable secure login, registration, and profile management functionalities.</li>
                 </ul>
               </div>
               <div
