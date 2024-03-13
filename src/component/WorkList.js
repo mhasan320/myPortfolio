@@ -99,7 +99,7 @@ export default function WorkList() {
           <GoWebsite />
         </div>
       </Link>
-      <Link
+      {/* <Link
         className="portfolioSection dark:text-white"
         to={{ pathname: 'https://www.charuta.com' }}
         target="_blank"
@@ -143,7 +143,7 @@ export default function WorkList() {
             alt="Charuta"
           />
         </div>
-      </Link>
+      </Link> */}
       <Link
         className="portfolioSection dark:text-white"
         to={{ pathname: 'https://eunoiaits.com/' }}
@@ -430,7 +430,7 @@ export default function WorkList() {
           />
         </div>
       </Link>
-      <Link
+      {/* <Link
         className="portfolioSection dark:text-white"
         to={{ pathname: 'http://thesanctuaryfigtreepocket.com.au/' }}
         target="_blank"
@@ -469,7 +469,7 @@ export default function WorkList() {
           </div>
           <GoWebsite />
         </div>
-      </Link>
+      </Link> */}
       <Link
         className="portfolioSection dark:text-white"
         to={{ pathname: 'https://unigamsa.com/' }}
