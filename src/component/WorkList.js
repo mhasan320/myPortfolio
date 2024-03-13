@@ -1,14 +1,12 @@
 import { Link } from 'react-router-dom';
 import assain from '../assets/img/assian.jpg';
 import business from '../assets/img/businessSummit.jpg';
-import charuta from '../assets/img/charuta.jpg';
 import eejara from '../assets/img/eejara.jpg';
 import eunoia from '../assets/img/eunoia.jpg';
 import ipsslGroup from '../assets/img/ipssl.jpg';
 import kibaba from '../assets/img/kibaba.jpg';
 import noir from '../assets/img/noir.jpg';
 import parkingKori from '../assets/img/parkingKori.jpg';
-import santuray from '../assets/img/santuray.jpg';
 import unigamsa from '../assets/img/unigamsa.jpg';
 import useAosAnimation from '../hooks/useAosAnimation';
 import GoWebsite from './GoWebsite';
