@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import aboutImg from '../assets/img/about.png';
 import useAosAnimation from '../hooks/useAosAnimation';
 import SectionTitle from './SectionTitle';
