@@ -99,6 +99,44 @@ export default function WorkList() {
           <GoWebsite />
         </div>
       </Link>
+      <Link
+        className="portfolioSection dark:text-white"
+        to={{ pathname: 'https://unigamsa.com/' }}
+        target="_blank"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out"
+      >
+        <div className="col-span-2 lg:mt-0">
+          <h3 className="text-2xl mb-2 font-semibold">Unigamsa</h3>
+          <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
+            Informative Website
+          </h5>
+          <p className="text-justify md:w-5/6 mb-4">
+            We hope to create a system where the weakness of one will be covered
+            by the strength of another, where the problem of one will be the
+            problem of all. We would like to promote the general will and secure
+            the right to sovereignty to ourselves and posterity through
+            solidarity and goodwill.
+          </p>
+          <div className="flex flex-wrap pb-4">
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              Elementor Theme
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              WordPress
+            </span>
+          </div>
+          <GoWebsite />
+        </div>
+        <div className="col-span-1">
+          <img
+            src={unigamsa}
+            className="portfolioHover group-hover:scale-105 group-hover:shadow-xl"
+            alt="Unigamsa"
+          />
+        </div>
+      </Link>
       {/* <Link
         className="portfolioSection dark:text-white"
         to={{ pathname: 'https://www.charuta.com' }}
@@ -470,44 +508,6 @@ export default function WorkList() {
           <GoWebsite />
         </div>
       </Link> */}
-      <Link
-        className="portfolioSection dark:text-white"
-        to={{ pathname: 'https://unigamsa.com/' }}
-        target="_blank"
-        data-aos="fade-up"
-        data-aos-delay="100"
-        data-aos-easing="ease-in-out"
-      >
-        <div className="col-span-2 lg:mt-0">
-          <h3 className="text-2xl mb-2 font-semibold">Unigamsa</h3>
-          <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
-            Informative Website
-          </h5>
-          <p className="text-justify md:w-5/6 mb-4">
-            We hope to create a system where the weakness of one will be covered
-            by the strength of another, where the problem of one will be the
-            problem of all. We would like to promote the general will and secure
-            the right to sovereignty to ourselves and posterity through
-            solidarity and goodwill.
-          </p>
-          <div className="flex flex-wrap pb-4">
-            <span className="technology dark:text-white  dark:bg-gray-700">
-              Elementor Theme
-            </span>
-            <span className="technology dark:text-white  dark:bg-gray-700">
-              WordPress
-            </span>
-          </div>
-          <GoWebsite />
-        </div>
-        <div className="col-span-1">
-          <img
-            src={unigamsa}
-            className="portfolioHover group-hover:scale-105 group-hover:shadow-xl"
-            alt="Unigamsa"
-          />
-        </div>
-      </Link>
     </>
   );
 }
