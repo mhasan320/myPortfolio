@@ -6,6 +6,7 @@ import eunoia from '../assets/img/eunoia.jpg';
 import ipsslGroup from '../assets/img/ipssl.jpg';
 import kibaba from '../assets/img/kibaba.jpg';
 import noir from '../assets/img/noir.jpg';
+import monarchmart from '../assets/img/monarchmart.png';
 import parkingKori from '../assets/img/parkingKori.jpg';
 import unigamsa from '../assets/img/unigamsa.jpg';
 import useAosAnimation from '../hooks/useAosAnimation';
@@ -14,6 +15,46 @@ export default function WorkList() {
   useAosAnimation();
   return (
     <>
+    <Link
+        className="portfolioSection dark:text-white"
+        to={{ pathname: 'https://monarchmart.com/' }}
+        target="_blank"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-easing="ease-in-out"
+      >
+        <div className="col-span-1">
+          <img
+            src={monarchmart}
+            className="portfolioHover group-hover:scale-105 group-hover:shadow-xl"
+            alt="monarchmart"
+          />
+        </div>
+        <div className="col-span-2 lg:mt-0 md:ml-20">
+          <h3 className="text-2xl mb-2 font-semibold">Monarchmart</h3>
+          <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
+            Multivendor e-commmerce web app
+          </h5>
+          <p className="text-justify md:w-5/6 mb-4">
+            Monarchmart is a Bangladeshi multi-vendor e-commerce platform featuring a web front-end, visual editor, admin panel, and seller panel. It provides an intuitive shopping experience, customization options for sellers, and robust management tools for admins, making it a comprehensive solution for online businesses in Bangladesh.
+          </p>
+          <div className="flex flex-wrap pb-4">
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              React
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              Vue
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              JavaScript
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              Typescript
+            </span>
+          </div>
+          <GoWebsite />
+        </div>
+      </Link>
       <Link
         className="portfolioSection dark:text-white"
         to={{ pathname: 'https://www.noirbd.com' }}
@@ -28,9 +69,7 @@ export default function WorkList() {
             Ecommerce Website
           </h5>
           <p className="text-justify md:w-5/6 mb-4">
-            ‘Noir’ is a ecommerce website of Evience company. Which is created
-            by Bit Byte Technology. I am doing front-end coding into this
-            project.
+          "Noir" is an e-commerce website developed by Evience and created by Bit Byte Technology. I'm responsible for front-end coding, ensuring a user-friendly interface and smooth navigation. With my expertise, I contribute to enhancing the website's design and functionality, optimizing the user experience for customers.
           </p>
           <div className="flex flex-wrap pb-4">
             <span className="technology dark:text-white  dark:bg-gray-700">
