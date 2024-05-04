@@ -6,7 +6,7 @@ import eunoia from '../assets/img/eunoia.jpg';
 import ipsslGroup from '../assets/img/ipssl.jpg';
 import kibaba from '../assets/img/kibaba.jpg';
 import noir from '../assets/img/noir.jpg';
-import monarchmart from '../assets/img/monarchmart.png';
+import monarchmart from '../assets/img/monarchmart2.png';
 import parkingKori from '../assets/img/parkingKori.jpg';
 import unigamsa from '../assets/img/unigamsa.jpg';
 import useAosAnimation from '../hooks/useAosAnimation';
