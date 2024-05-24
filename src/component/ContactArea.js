@@ -53,7 +53,7 @@ export default function ContactArea() {
               <span className="font-bold">Phone :</span> +880 1517828396
             </p>
             <p className="text-black dark:text-white text-lg mb-2">
-              <span className="font-bold">Address :</span> Khilgoan, Dhaka,
+              <span className="font-bold">Address :</span> Dhaka,
               Bangladesh
             </p>
 

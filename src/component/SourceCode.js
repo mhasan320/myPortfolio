@@ -12,7 +12,7 @@ export default function SourceCode() {
           icon={["fab", "github"]}
           className="mr-2 hidden md:inline-block"
         />
-        Source Code
+        Source code
       </Link>
     </div>
   );
