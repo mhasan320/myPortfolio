@@ -55,7 +55,7 @@ export default function ContactForm() {
       />
       <button
         type="submit"
-        className="w-full btn-primary text-pink-500 border-pink-500 hover:bg-pink-700 text-white bg-pink-500 block md:block m-auto transition duration-75"
+        className="w-full btn-primary text-pink-500 border-pink-500 hover:bg-pink-700 !text-white !bg-pink-500 block md:block m-auto transition duration-75"
       >
         Submit
       </button>
