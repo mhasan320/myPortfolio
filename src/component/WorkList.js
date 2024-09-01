@@ -8,6 +8,7 @@ import kibaba from '../assets/img/kibaba.jpg';
 import noir from '../assets/img/noir.jpg';
 import monarchmart from '../assets/img/monarchmart2.png';
 import parkingKori from '../assets/img/parkingKori.jpg';
+import sarfoScholars from '../assets/img/sarfoscholars.png';
 import unigamsa from '../assets/img/unigamsa.jpg';
 import useAosAnimation from '../hooks/useAosAnimation';
 import GoWebsite from './GoWebsite';
@@ -15,6 +16,43 @@ export default function WorkList() {
   useAosAnimation();
   return (
     <>
+    <Link
+        className="portfolioSection dark:text-white"
+        to={{ pathname: 'https://sarfoscholarship.com/' }}
+        target="_blank"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-easing="ease-in-out"
+      >
+        <div className="col-span-2 lg:mt-0">
+          <h3 className="text-2xl mb-2 font-semibold">Sarfo Scholarship</h3>
+          <h5 className="text-md mb-2 text-gray-600 font-medium bg-gray-100 py-1 px-3 inline-block rounded dark:bg-gray-700 dark:text-gray-400">
+            Infromative and Scholarship Website
+          </h5>
+          <p className="text-justify md:w-5/6 mb-4">
+            Empowering Ghanaian Students Through Scholarships. The Sarfo Scholarship is dedicated to helping high school and university students in Ghana who demonstrate academic potential and financial need.
+          </p>
+          <div className="flex flex-wrap pb-4">
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              WordPress
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+              Elementor
+            </span>
+            <span className="technology dark:text-white  dark:bg-gray-700">
+             Forminator
+            </span>
+          </div>
+          <GoWebsite />
+        </div>
+        <div className="col-span-1">
+          <img
+            src={sarfoScholars}
+            className="portfolioHover group-hover:scale-105 group-hover:shadow-xl"
+            alt="Sarfo"
+          />
+        </div>
+      </Link>
     <Link
         className="portfolioSection dark:text-white"
         to={{ pathname: 'https://monarchmart.com/' }}
