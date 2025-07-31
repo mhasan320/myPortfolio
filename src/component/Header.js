@@ -41,7 +41,7 @@ export default function Header() {
               >
                 <Link to="/"> Home </Link>
               </li>
-              <li
+              {/* <li
                 className={`nav-class list-none ${
                   splitLocation[1] === "PortfolioPage" ? "active" : ""
                 }`}
@@ -49,7 +49,7 @@ export default function Header() {
                 <Link className="" to="/PortfolioPage">
                   Portfolio
                 </Link>
-              </li>
+              </li> */}
               <Link
                 className="btn-primary text-center border-pink-500 text-pink-500 md:ml-6 hover:bg-pink-500 hover:text-white"
                 to={{
